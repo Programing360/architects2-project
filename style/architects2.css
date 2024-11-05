@@ -1,0 +1,71 @@
+/* worl sans font size */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* shere style */
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    font-size: 1.25rem;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+*{
+    font-family: "Work Sans", serif;
+}
+
+/* header style */
+header{
+    padding: 50px 240px 50px 240px; 
+    background-color: rgba(255, 236, 211, 0.659);
+}
+nav h2{
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    /* width: 477px; */
+    /* justify-content: space-evenly; */
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #424242;
+}
+nav ul a{
+    text-decoration: none;
+
+}
+/* banner style */
+.banner{
+
+}
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 117px 0px 50px 0px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 862px;
+    color: #131313;
+}
+.banner-discription{
+    width: 868px;
+    font-size: 16px;
+    color: #727272;
+}
