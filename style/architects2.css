@@ -192,7 +192,7 @@ nav ul a{
 /* responsive media quiary */
 @media screen and (max-width: 576px) {
     header{
-        padding: 0%;
+        padding: 0px;
     }
     nav{
         flex-direction: column;
@@ -202,7 +202,7 @@ nav ul a{
         font-size: 2rem;
     }
     .banner-discription{
-        width: 400px;
+        width: 370px;
         font-size: 16px;
         color: #727272;
     }
@@ -212,8 +212,12 @@ nav ul a{
         /* margin: 0px auto; */
         padding: 10px 0px 50px 0px;
     }
+    .banner img{
+        max-width: 97%;
+    }
     .feature-img-contant{
         flex-direction: column;
+        align-items: baseline;
         /* margin-left: 20px; */
         padding: 0px;
     }
@@ -226,7 +230,7 @@ nav ul a{
         gap: 24px;
     }    
     .feature-title{
-        width: 300px;
+        width: 380px;
     }
     .feature-title h2{
         font-size: 30px;
@@ -237,8 +241,57 @@ nav ul a{
         width: 350px;
 
     }
-
-
+    .variation-passage{
+        flex-direction: column-reverse;
+    }
+   
+    .card-menu{
+        width: 200px;
+        height: 100px;
+        background-color: #FF900E;
+        color: #FFFFFF;
+        /* text-align: center; */
+        /* padding: 45px 42px; */
+        margin: 0px 0px 900px 0px;
+        border-radius: 8px;
+        position: absolute;
+        
+    }
+    .ten-year {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0px;
+    }
+    .experience{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 0px;
+        
+    }
+    .alteration-description{
+        width: 360px;
+    }
+    .variation-title{
+        padding-right: 0px;
+    }
+    .variation-title{
+        margin-top: 80px;
+    }
+    .information-title{
+        max-width: 75%;
+        padding: 35px 30px;
+    }
+    .information-title p{
+        width: 300px;
+    }
+    .alteration-title{
+        width: 300px;
+        font-size: 35px;
+        /* margin-top: 100px; */
+    }
+    .variation-passage img{
+        max-width: 92%;
+    }
 }
 @media screen and (min-width:576px) and ( max-width: 992px) {
     header{
